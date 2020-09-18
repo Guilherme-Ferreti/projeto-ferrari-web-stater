@@ -6,7 +6,7 @@
     font-weight: 400;
 }
 
-body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure, picture {
+body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure, picture, hr {
     display: flex;
 }
 
@@ -14,4 +14,17 @@ body {
     margin: 0;
     flex-direction: column;
     background-color: var(--bg-color);
+}
+
+// Quando a tag hr tiver a class divider
+// Poderia ser feito utilizando : hr.divider{ }
+hr {
+    &.divider{
+        background-color: var(--gray-3);
+        height: 1px;
+        width: calc(100% - 2em); // Pega 100% da tela e remove a quantidade de 2 letras 'm'
+        margin: 3em 0;
+        border: none;
+        align-self: center;
+    }
 }
