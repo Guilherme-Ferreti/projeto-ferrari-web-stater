@@ -5,6 +5,7 @@
     --black-hover: #111;
     --black-active: #222;
     --black-10: #0000001a;
+    --black-50: rgba(0, 0, 0, .5);
     --black-75: #000000bf;
 
     --dark-0: #333333;
@@ -36,5 +37,15 @@
     --blue-active: #00A0E6;
     --gray-3: #CCC;
 
+    --success: #D4EDDA;
+    --success-border: #C3E6CB;
+    --success-color: #155424;
+
+    --danger: #F8D7DA;
+    --danger-border: #F5C6CB;
+    --danger-color: #721C24;
+
     --space: 20px;
+
+    --border-radius: 5px;
 }   

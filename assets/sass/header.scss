@@ -1,12 +1,10 @@
 #header {
-
     min-width: 320px;
     width: 100%;
     height: 60px;
     background-color: var(--gray-5);
     position: relative;
     z-index: 3;
-
     .italy {
         width: 100%;
         position: absolute;
@@ -18,7 +16,6 @@
         height: 18px;
         margin: 0;
     }
-
     .logo {
         position: absolute;
         transition: all 1s ease-in-out;
@@ -27,7 +24,6 @@
         right: calc(50vw - 36px);
         z-index: 5;
     }
-
     .menu {
         transition: right .5s ease-in-out;
         width: 300px;
@@ -40,15 +36,12 @@
         z-index: 4;
         flex-direction: column;
         justify-content: space-between;
-
         hr {
             width: 100%;
             border-bottom: none;
             border-color: var(--black-10);
             margin: 0;
-
         }
-
         &.logged {
             nav {
                 ul {
@@ -71,10 +64,8 @@
                 }
             }
         }
-
         nav {
             flex-direction: column;
-
             ul {
                 margin: 0;
                 margin-top: 179px;
